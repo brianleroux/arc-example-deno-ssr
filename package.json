@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "deno bundle src/browser.tsx > dist/browser.js",
+    "build": "mkdir -p dist && deno bundle src/browser.tsx > dist/browser.js",
     "start": "npm run build && npx sandbox"
   },
   "dependencies": {
